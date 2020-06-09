@@ -9,6 +9,8 @@ import "./App.css";
 // import the PostsPage and SearchBar and add them to the App
 import MainPost from "./components/PostsContainer/PostsPage";
 import SearchBar from "./components/SearchBar/SearchBarContainer";
+// import Comment from './components/CommentSection/Comment'
+import dummyData from "./dummy-data";
 
 
 const App = () => {
@@ -20,7 +22,7 @@ const App = () => {
         <SearchBar />
       }
       {
-        <MainPost />
+        <MainPost post={dummyData} />
       }
     </div>
   );
