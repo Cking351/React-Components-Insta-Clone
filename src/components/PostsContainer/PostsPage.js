@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Post from "./Post";
 import "./Posts.css";
 // import data 
-import './PostHeader'
+import dummyData from '../../dummy-data'
 
 const PostsPage = (props) => {
   // set up state for your data
